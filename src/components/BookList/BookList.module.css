@@ -1,0 +1,61 @@
+.bookList {
+    list-style: none;
+    padding: 0;
+}
+
+.bookItem {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookDetails {
+    max-width: 70%;
+}
+
+.bookTitle {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.bookStatus {
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.statusButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.statusButton:hover {
+    background-color: #0056b3;
+}
+
+.deleteButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+}
